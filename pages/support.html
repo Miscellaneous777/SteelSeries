@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en-UK">
+<head>
+  <meta charset=utf-8/>
+  <link rel="stylesheet" href= "../CSS/reset.css">
+  <link rel="stylesheet" href= "../CSS/stylesheet.css">
+  <script src="../js/javascript.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SteelSeries</title>
+</head>
+
+
+<body>
+	<header>
+		<nav class="topNavBar">
+		<!-- <img src=""> -->
+		  <h1 class="Title">
+		     STEELSERIES
+		  </h1>
+
+		<!-- This section is for the Search and Hamburger buttons that you can see on my Wireframe. -->
+
+		  <section class="hamburger">
+			  <a onclick="openNav()"><img src="../assets/hamburger.png"></a>
+		  </section >
+
+      <section class="searchButton">
+			   <a href="javascript:void(0)"><img src="../assets/search.jpg"></a>
+		  </section>
+
+      <div class="sidebar" id="menuNav">
+        <a href="javascript:void(0)" id="closeButton" onclick="closeNav()">&times;</a>
+        <a href="../index.html"> HOME </a>
+  			<a href="about.html">ABOUT US</a>
+  			<a href="products.html">PRODUCTS</a>
+  			<a href="support.html">SUPPORT</a>
+        <a href="demo.html">DEMO</a>
+      </div>
+		</nav>
+    <section class="topNavBlocker"></section>
+	</header>
+
+  <!--This is for the main section-->
+
+	<section class="supportArticle">
+    <h1 class="mainArticleHeader" style="padding-bottom: 0.8rem;">Support</h1>
+
+
+    <button class="accordion" >How does this work?</button>
+    <div class="popOut">
+      <p>Click on the question you've got to reveal the answer!</p>
+    </div>
+
+    <button class="accordion">Do you ship internationally?</button>
+    <div class="popOut">
+      <p>Yes! We will ship to every country, worldwide, for free. </p>
+    </div>
+
+    <button class="accordion">How do I find out if my Arctis Headset is the 2019 edition?</button>
+    <div class="popOut">
+      <p>On the back of the headset, if the serial number is any of those below, congrats! It's a 2019 model. <ul><li>61503</li><li>61506</li><li>61511</li><li>61504</li><li>61507</li><li>61505</li><li>61508</li></ul></p>
+    </div>
+
+  </section>
+
+  <section class="buttonHolder">
+    <button class="readMoreArticles">Read more...</button>
+  </section>
+
+
+
+  <section class="supportEmailBox">
+    <input type="text" class="emailSupport" placeholder="someone@example.com"></input>
+    <button class="submitSupportButton">Submit!</button>
+    <section class="supportEntryBox">
+      <textarea class="supportEntry" placeholder="What's wrong?" type=text rows=5></textarea>
+    </section>
+
+  </section>
+
+  <section class="supportSocialBase">
+    <img class="logoSmall" src="../assets/logo.png">
+    <a href="http://twitter.com/steelseries"><img class="social" src="../assets/twitter.png"></a>
+    <a href="http://instagram.com/steelseries"><img class="social" src="../assets/insta.png"></a>
+    <a href="http://facebook.com/steelseries"><img class="social" src="../assets/facebook.png"></a>
+  </section>
+
+</body>
+</html>
